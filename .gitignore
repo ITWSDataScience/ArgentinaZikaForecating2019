@@ -1,0 +1,5 @@
+.DS_Store
+.ipynb_checkpoints/
+Data/
+shapefiles/.DS_Store
+zika_data/.DS_Store
