@@ -1,5 +1,5 @@
-# ArgentinaZikaForecating2019
-The purpose of this project is to determine if there is a strong correlation between precipitation and the 2016-2017 zika outbreak
+# Argentina Zika Forecating
+The purpose of this project is to determine if there is a strong correlation between precipitation (specifically rainfall) and the 2016-2017 Zika outbreak
 
 # Data Organization
 Zika data is stored in the zika\_data directory. Files in the zika\_data directory are aggregated by month, and raw files are grouped by month in the subdirectories of the zika\_data directory
