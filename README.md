@@ -1,16 +1,8 @@
 # Argentina Zika Forecating
 
 ### About
+
 The purpose of this project is to determine if there is a strong correlation between precipitation (specifically rainfall) and the 2016-2017 Zika outbreak
-
-### Data Organization
-Zika data is stored in the zika\_data directory. Files in the zika\_data directory are aggregated by month, and raw files are grouped by month in the subdirectories of the zika\_data directory
-
-Precipitation data is stored in the raw\_data directory, and also in the data.zip file in the top-level directory.
-
-Shapefiles for the provinces of Argentina are located in the shapefiles directory
-
-Scripts/Jupyter notebooks used for analysis are located in the top-level directory.
 
 ### Files description
 
@@ -24,4 +16,9 @@ Scripts/Jupyter notebooks used for analysis are located in the top-level directo
 - **Documentation**: This folder includes the final poster for this project as well as visualizations generated as part of this project inside the *Images* folder.
 - **raw_data**: It includes the raw precipitation data from GPM in HDF5 format.
 - **shapefiles**: It includes the shapefiles for all of Argentina as well as its various provinces.
-- **zika_data**: This folder includes all the Zika cases data.
+- **zika_data**: This folder includes all the Zika cases data. Files in the zika_data directory are aggregated by month, and raw files are grouped by month in the subdirectories of the zika_data directory
+- **data.zip**: As combined data had a very large file size, it was compressed and uploaded as a zip file.
+
+#### Other files
+- **.gitignore**: Includes all the files and directories not to be included as part of this repository
+- **README.md**: This markdown file to describe the repository.
